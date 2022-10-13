@@ -1,6 +1,21 @@
+@font-face { font-family: Satisfy-Regular; src: url('Satisfy-Regular.ttf'); } 
+
 .UpBar
 {
     width: 100%;
     height: 50px;
     background-color: black;
+    position: sticky;
+    top: 0px;
+    z-index: 1000;
 }
+
+h1{
+    font-family: Satisfy-Regular;
+    color: white;
+    margin-left: 75px;
+    margin-top: -3px;
+    
+}
+
+
